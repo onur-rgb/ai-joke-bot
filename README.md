@@ -1,6 +1,3 @@
-# AI Comedy Club - Local Setup and Docker Support
-
-Welcome to the AI Comedy Club, where humor meets technology! In this repository, you have the option to run our AI comedian bot either locally or within a Docker container with GPU support. This README will serve as your trusty guide, walking you through both setup options.
 ## About the Chatbot - Meet Llamastar
 Let's introduce you to the star of the show, Llamastar! This AI comedian bot was crafted using TheBloke's Llama-2-7B-chat-GPTQ model. But that's not all; I've spiced it up with Gradio and Langchain applications to provide you with an interactive and entertaining experience. Feel free to explore Llamastar's comedic talents and have a blast at the AI Comedy Club! 🎤😄
 ## Prerequisites
