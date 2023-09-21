@@ -59,7 +59,7 @@ class Bot:
         chatbot = gr.Chatbot(label='Llamastar')
         textbox = gr.Textbox(placeholder='You can insert your prompt here.', show_label=False)
         examples = ["Hello", "You are so funny make another joke.", "Give me some sports joke."]
-        gr.ChatInterface(fn=predict, chatbot=chatbot, textbox=textbox, examples=examples, description=description).queue().launch(share=False)
+        gr.ChatInterface(fn=predict, chatbot=chatbot, textbox=textbox, examples=examples, description=description).queue().launch(share=True)
 
 
 if __name__ == "__main__":
